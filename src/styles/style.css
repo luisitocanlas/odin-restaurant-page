@@ -6,6 +6,7 @@ body {
 	line-height: 1.5;
 }
 
+/* Header */
 header {
 	background-color: #f8f8f8;
 	padding: 20px 0;
@@ -31,6 +32,7 @@ header nav button:hover {
 	background-color: #ddd;
 }
 
+/* Content */
 #content {
 	max-width: 800px;
 	margin: 50px auto;
@@ -41,8 +43,35 @@ header nav button:hover {
 	align-items: center;
 }
 
+/* Logo */
 img {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 20px;
+}
+
+/* Menu Item Cards */
+.menu-item {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px;
+	max-width: 600px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h2 {
+	margin-top: 0;
+}
+
+.menu-item img {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.menu-item p {
+	font-size: 14px;
+	color: #555;
 }
