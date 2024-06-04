@@ -1,5 +1,5 @@
-function component() {
-	console.log('Hello there!');
-}
+import initialPageLoad from './initialPageLoad.js';
 
-component();
+document.addEventListener('DOMContentLoaded', () => {
+	initialPageLoad();
+});
