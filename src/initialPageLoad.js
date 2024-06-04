@@ -1,6 +1,10 @@
 function initialPageLoad() {
 	const content = document.querySelector('#content');
 
+	if (content.textContent !== '') {
+		content.textContent = '';
+	}
+
 	const heading = document.createElement('h1');
 	heading.textContent = 'Are you ready to Feast!?';
 
