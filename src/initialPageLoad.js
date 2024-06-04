@@ -1,3 +1,5 @@
+import logo from './assets/logo.png';
+
 function initialPageLoad() {
 	const content = document.querySelector('#content');
 
@@ -9,7 +11,7 @@ function initialPageLoad() {
 	heading.textContent = 'Are you ready to Feast!?';
 
 	const image = document.createElement('img');
-	image.src = './assets/logo.webp';
+	image.src = logo;
 	image.alt = 'Restaurant Image';
 	image.width = 600;
 
